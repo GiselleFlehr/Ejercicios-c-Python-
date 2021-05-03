@@ -1,0 +1,7 @@
+print("Ingrese 2 puntos en un plano")
+x1 = int(input("Ingrese x1: "))
+y1 = int(input("Ingrese y1: "))
+x2 = int(input("Ingrese x2: "))
+y2 = int(input("Ingrese y2: "))
+distancia = (abs(x2 - x1)) + (abs(y2 - y1))
+print("Distancia:",distancia)
